@@ -1,0 +1,27 @@
+{
+  "name": "findadoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcmminer/findadoc.git"
+  },
+  "author": "bravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcmminer/findadoc/issues"
+  },
+  "homepage": "https://github.com/hcmminer/findadoc#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "nodemonConfig": {
+    "ignore": ["test/*", "docs/*"],
+    "delay": "2500"
+  }
+}
